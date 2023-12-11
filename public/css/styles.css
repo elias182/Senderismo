@@ -1,0 +1,236 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin-right: 20px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-input {
+    padding: 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-button {
+    padding: 15px;
+    background-color: #08420e;
+    color: #fff;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #45a049;
+}
+.main {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.ruta-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.ruta-table th, .ruta-table td {
+    border: 1px solid #28a745;
+    padding: 12px;
+    text-align: left;
+    
+    transition: background-color 0.3s;
+}
+
+.ruta-table th {
+    background-color: #28a745;
+    color: white;
+}
+
+.ruta-table td {
+    background-color: #ffffff;
+}
+
+.ruta-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+.comment-link, .delete-link, .edit-link, .new-route-button a {
+    display: inline-block;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.comment-link:hover, .delete-link:hover, .edit-link:hover, .new-route-button a:hover {
+    background-color: #218838;
+}
+
+.no-routes {
+    margin-top: 20px;
+}
+
+.new-route-button {
+    margin-top: 20px;
+    text-align: center;
+}
+.nueva-ruta {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nueva-ruta h1 {
+    text-align: center;
+    color: #4caf50;
+}
+
+.nueva-ruta form {
+    display: flex;
+    flex-direction: column;
+}
+
+.nueva-ruta label {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.nueva-ruta input,
+.nueva-ruta textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.nueva-ruta button {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nueva-ruta button:hover {
+    background-color: #45a049;
+}
+.comentarios {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comentarios h1,
+.comentarios h2 {
+    color: #3498db;
+}
+
+.comentarios h2 {
+    margin-top: 20px;
+}
+
+.comentarios p {
+    margin-bottom: 10px;
+}
+
+.comentarios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comentarios li {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.comentarios form {
+    margin-top: 20px;
+}
+
+.comentarios label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.comentarios input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.comentarios button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.comentarios button:hover {
+    background-color: #2980b9;
+}
